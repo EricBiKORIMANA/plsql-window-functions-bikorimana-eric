@@ -66,9 +66,16 @@
 ## 3. Database Schema
 
 ### Tables
+> See the SQL schemas [here](sql/01_sql_schema.sql)
+
+
+
+![Tables created in Oracle SQL Developer](screenshots/01_Table_created.png)
+
 ![Relationships between tables](screenshots/02_tables_relationship.png)
 
-```sql
+
+<!-- ```sql
 -- Query for create Customers
 CREATE TABLE customers (
   customer_id INT PRIMARY KEY,
@@ -144,7 +151,7 @@ INSERT INTO "TRANSACTIONS" VALUES ('1024', '6', '106', TO_DATE('2025-08-19', 'YY
 
 
 
-```
+``` -->
 
 ### ER Diagram
 
@@ -231,4 +238,5 @@ ORDER BY total_revenue DESC;
 * [Oracle Live SQL Examples](https://livesql.oracle.com/ords/livesql/file/tutorial_D39T3OXOCOQ3WK9EWZ5JTJA.html)
 * [Window Function Descriptions](https://dev.mysql.com/doc/refman/8.4/en/window-function-descriptions.html)
 
-l
+
+
