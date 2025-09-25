@@ -66,6 +66,7 @@
 ## 3. Database Schema
 
 ### Tables
+![Relationships between tables](screenshots/02_tables_relationship.png)
 
 ```sql
 -- Query for create Customers
@@ -147,7 +148,9 @@ INSERT INTO "TRANSACTIONS" VALUES ('1024', '6', '106', TO_DATE('2025-08-19', 'YY
 
 ### ER Diagram
 
-![ER diagram](screenshots/ERD.png)
+![ER diagram](screenshots/ER_Diagram.png)
+
+
 
 **Relationships:**
 
