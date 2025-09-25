@@ -20,6 +20,6 @@ CREATE TABLE TRANSACTIONS (
   product_id INT,
   sale_date DATE,
   amount DECIMAL(10,2),
-  FOREIGN KEY (customer_id) REFERENCES customers(customer_id),
-  FOREIGN KEY (product_id) REFERENCES products(product_id)
+  FOREIGN KEY (customer_id) REFERENCES CUSTOMERS(customer_id),
+  FOREIGN KEY (product_id) REFERENCES PRODUCTS(product_id)
 );
