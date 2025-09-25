@@ -148,7 +148,7 @@ INSERT INTO "TRANSACTIONS" VALUES ('1024', '6', '106', TO_DATE('2025-08-19', 'YY
 
 ### ER Diagram
 
-![ER diagram](/Users/pro/Documents/AUCA Note/Semester 5/DBMS with PL:SQL/Assignment/plsql.png)
+![ER diagram](screenshots/ERD.png)
 
 **Relationships:**
 
