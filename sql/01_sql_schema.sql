@@ -1,19 +1,20 @@
+
 -- Query for create Customers
-CREATE TABLE customers (
+CREATE TABLE CUSTOMERS (
   customer_id INT PRIMARY KEY,
   name VARCHAR(100),
   region VARCHAR(50)
 );
 
--- Products
-CREATE TABLE products (
+-- Query for create Products
+CREATE TABLE PRODUCTS (
   product_id INT PRIMARY KEY,
   name VARCHAR(100) UNIQUE,
   category VARCHAR(50)
 );
 
--- Transactions
-CREATE TABLE transactions (
+-- Query for create Transactions
+CREATE TABLE TRANSACTIONS (
   transaction_id INT PRIMARY KEY,
   customer_id INT,
   product_id INT,
