@@ -216,7 +216,7 @@ ORDER BY total_revenue DESC;
 
 ## 6. References
 
-Include at least 10 sources in your README:
+
 
 * [Oracle Docs](https://docs.oracle.com/en/database/oracle/oracle-database/index.html)
 * [TutorialsPoint](https://www.tutorialspoint.com/apache_tajo/apache_tajo_aggregate_and_window_functions.htm)
