@@ -23,9 +23,6 @@
 
 * [Draw.io](http://Draw.io) ([diagrams.net](http://diagrams.net)) to create the ER Diagram.
 
-6. **Operating System**
-
-* Works on **Windows**
 
 ## 1. Problem Definition
 
@@ -33,8 +30,10 @@
   * Type: E-commerce retail company, operating in Rwanda.
   * Department: Sales &  Marketing department, analyzing customer purchasing behavior    across regions/districts in Rwanda.
   * Industry: Online retail (e.g., electronics, fashion, or groceries)
+    
 * **Data Challenge**
   The company wants to understand which products perform best in different regions and how customer behavior evolves over time. They need insights to improve marketing and inventory decisions.
+  
 * **Expected Outcome**
   By using  **PL/SQL window functions** , the company will uncover:
   * Top-selling products per region/district in Rwanda.
