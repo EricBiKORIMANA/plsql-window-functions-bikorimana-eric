@@ -23,3 +23,4 @@ CREATE TABLE TRANSACTIONS (
   FOREIGN KEY (customer_id) REFERENCES CUSTOMERS(customer_id),
   FOREIGN KEY (product_id) REFERENCES PRODUCTS(product_id)
 );
+ 
