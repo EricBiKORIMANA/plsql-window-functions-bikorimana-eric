@@ -72,7 +72,7 @@
 
 ![Tables created in Oracle SQL Developer](screenshots/01_Table_created.png)
 
-![Relationships between tables](screenshots/02_tables_relationship.png)
+![Relationships between tables](screenshots/02_tables_relationship..png)
 
 
 <!-- ```sql
