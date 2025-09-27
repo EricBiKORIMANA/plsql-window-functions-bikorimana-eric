@@ -230,13 +230,15 @@ ORDER BY total_revenue DESC;
 * [Oracle Docs](https://docs.oracle.com/en/database/oracle/oracle-database/index.html)
 * [TutorialsPoint](https://www.tutorialspoint.com/apache_tajo/apache_tajo_aggregate_and_window_functions.htm)
 * [GeeksforGeeks](https://www.geeksforgeeks.org/sql/window-functions-in-sql/)
-* [Stack Overflow ](https://stackoverflow.com/)Discussions
+* [Window Function Concepts and Syntax](https://docs.oracle.com/cd/E17952_01/mysql-8.0-en/window-functions-usage.html)
 * Youtube video: [Lead &amp; Lag Window Functions in SQL (EXAMPLES INCLUDED)](https://www.youtube.com/watch?v=nHEEyX_yDvo)
 * [SQL ServerCentral](https://www.sqlservercentral.com/articles/window-function-basics-partition-by)
 * [SQLTutorial](https://www.sqltutorial.org/sql-window-functions/)
-* [Mode Analytics](https://mode.com/sql-tutorial/sql-window-functions)
-* [Oracle Live SQL Examples](https://livesql.oracle.com/ords/livesql/file/tutorial_D39T3OXOCOQ3WK9EWZ5JTJA.html)
+* [Mode Analytics: SQL Window Functions](https://mode.com/sql-tutorial/sql-window-functions)
+* [TechOnTheNet: Oracle/PLSQL Analytical Functions.](https://www.techonthenet.com/oracle/index.php)
 * [Window Function Descriptions](https://dev.mysql.com/doc/refman/8.4/en/window-function-descriptions.html)
+* Academic paper:
+Prof. Dr,-Ing . Stefan deßloch. (2014). Recent Develepments for Data Models. * - [Chapter 6 - Windows and Query Functions in SQL](http://wwwlgis.informatik.uni-kl.de/cms/fileadmin/courses/SS2014/Neuere_Entwicklungen/Chapter_6_-_Windows_and_Query_Functions_in_SQL.pdf)
 
 
 
