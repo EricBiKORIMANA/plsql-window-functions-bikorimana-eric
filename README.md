@@ -165,7 +165,7 @@ See all tables created queries [here](sql/01_sql_schema.sql)
 ## 6. References
 
 
-* [Isokko App](https://app.isokko.com/) for Product categorization reference.
+* [Isokko App](https://app.isokko.com/) (2025) for Product categorization reference.
 * [Oracle Docs](https://docs.oracle.com/en/database/oracle/oracle-database/index.html) : Analytic Functions. Oracle Help Center.
 * [TutorialsPoint](https://www.tutorialspoint.com/apache_tajo/apache_tajo_aggregate_and_window_functions.htm) (2025). *Aggregate & Window Functions*.
 * [GeeksforGeeks](https://www.geeksforgeeks.org/sql/window-functions-in-sql/) (2025). *SQL Window Functions*.
