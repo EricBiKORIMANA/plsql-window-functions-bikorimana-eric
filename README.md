@@ -1,5 +1,15 @@
 # plsql-window-functions-bikorimana-eric
 
+## Table of Contents
+
+- [Requirement](#13)
+- [Problem Definition](#37)
+- [Success Criteria](#55)
+- [Database Schema Design](#77)
+- [Window Function Implementation](#196)
+- [Results Analysis](#218)
+- [References](#235)
+
 ## Requirement
 
 1. **Database Environment**
@@ -27,6 +37,7 @@
 ## 1. Problem Definition
 
 * **Business Context:**
+  A mid-sized **retail company** operates across several regions in Rwanda. 
   * Type: E-commerce retail company, operating in Rwanda.
   * Department: Sales &  Marketing department, analyzing customer purchasing behavior    across regions/districts in Rwanda.
   * Industry: Online retail (e.g., electronics, fashion, or groceries)
@@ -65,14 +76,41 @@
 
 ## 3. Database Schema
 
+1. **Create user called plsql by using cmd**
+   
+![Use sqlplus in cmd](screenshots/03_Login_cmd.PNG)
+
+![Create user in cmd](screenshots/04_create_user_plsql.PNG)
+
+![Grant permission to nplsql user in cmd](screenshots/05_grant_permission_plsql_user.PNG)
+
+2. **Create a connection in SQL Developer**
+
+![Create a connection in SQL Developer](screenshots/06_create_connection_in_sqldeveloper.PNG)
+
 ### Tables
-> See the SQL schemas [here](sql/01_sql_schema.sql)
 
-
+See all tables created queries [here](sql/01_sql_schema.sql)
 
 ![Tables created in Oracle SQL Developer](screenshots/01_Table_created.png)
 
-![Relationships between tables](screenshots/02_tables_relationship..png)
+> Tables created 
+
+
+
+![Customers](screenshots/19_Transactions_table_has_relationship_to_customers_table.PNG)
+
+> Customer-Transaction Relationship
+
+![Products](screenshots/20_Transactions_table_has_relationship_to_product_table.PNG)
+
+> Product-Transaction Relationship
+
+![Transactions has foreign keys from customers and products tables](screenshots/02_tables_relationship..png)
+
+> Customers-Transactions-Products Relationship
+
+
 
 
 <!-- ```sql
@@ -156,8 +194,6 @@ INSERT INTO "TRANSACTIONS" VALUES ('1024', '6', '106', TO_DATE('2025-08-19', 'YY
 ### ER Diagram
 
 ![ER diagram](screenshots/ER_Diagram.png)
-
-
 
 **Relationships:**
 
