@@ -167,44 +167,24 @@ INSERT INTO "TRANSACTIONS" VALUES ('1024', '6', '106', TO_DATE('2025-08-19', 'YY
 ## 4. Window Function Implementation
 
 * Ranking: ROW_NUMBER(), RANK(), DENSE_RANK(), PERCENT_RANK() Use case: Top N customers by revenue
-
-```sql
-SELECT 
-    c.customer_id,
-    c.c_name,
-    c.region,
-    SUM(t.amount) as total_revenue,
-    -- ROW_NUMBER: Sequential ranking (1,2,3,4...)
-    ROW_NUMBER() OVER (ORDER BY SUM(t.amount) DESC) as row_num,
-    -- RANK: Same values get same rank, next rank skips (1,2,2,4...)
-    RANK() OVER (ORDER BY SUM(t.amount) DESC) as rank_pos,
-    -- DENSE_RANK: Same values get same rank, next rank doesn't skip (1,2,2,3...)
-    DENSE_RANK() OVER (ORDER BY SUM(t.amount) DESC) as dense_rank_pos,
-    -- PERCENT_RANK: Percentile ranking (0 to 1)
-    PERCENT_RANK() OVER (ORDER BY SUM(t.amount) DESC) as percent_rank
-FROM customers c
-JOIN transactions t ON c.customer_id = t.customer_id
-GROUP BY c.customer_id, c.c_name, c.region
-ORDER BY total_revenue DESC;
-```
+>Interpretation: This query ranks customers by total revenue using multiple functions that handle ties and relative
+>positioning. It helps identify top spenders and segment customers based on their contribution to overall sales.
+> See the result [here](sql/03_result_queries.sql)
 
 * Aggregate: SUM(), AVG(), MIN(), MAX() with frame comparisons (ROWS vs RANGE) Use case: Running totals & trends
-
-```sql
-
-```
+>Interpretation: This query tracks cumulative and rolling metrics over time using different window frames. It helps
+>monitor sales growth, detect anomalies, and smooth fluctuations for trend analysis and forecasting.
+> See the result [here](sql/03_result_queries.sql)
 
 * Navigation: LAG(), LEAD(), growth % calculations Use case: Period-to-period analysis
-
-```sql
-
-```
+>Interpretation: LAG() and LEAD() access previous and next row values within partitions, enabling period-to-period comparisons.
+>Growth percentage calculations become straightforward by comparing current values with previous ones using LAG().        
+> See the result [here](sql/03_result_queries.sql)
 
 * Distribution: NTILE(4), CUME_DIST() Use case: Customer segmentation
-
-```sql
-
-```
+> Interpretation: This query segments customers into quartiles and percentiles based on total revenue. It assigns intuitive 
+>labels like Premium, Gold, Silver, and Bronze to support targeted marketing and loyalty strategies.
+> See the result [here](sql/03_result_queries.sql)
 
 ## 5. Results Analysis
 
