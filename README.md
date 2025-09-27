@@ -242,7 +242,7 @@ INSERT INTO "TRANSACTIONS" VALUES ('1024', '6', '106', TO_DATE('2025-08-19', 'YY
 ## 6. References
 
 
-
+* [Isokko App](https://app.isokko.com/) for Product categorization
 * [Oracle Docs](https://docs.oracle.com/en/database/oracle/oracle-database/index.html)
 * [TutorialsPoint](https://www.tutorialspoint.com/apache_tajo/apache_tajo_aggregate_and_window_functions.htm)
 * [GeeksforGeeks](https://www.geeksforgeeks.org/sql/window-functions-in-sql/)
