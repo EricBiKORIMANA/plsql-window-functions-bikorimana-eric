@@ -110,7 +110,21 @@ See all tables created queries [here](sql/01_sql_schema.sql)
 
 > Customers-Transactions-Products Relationship
 
+3. **Insert sample data into tables**
 
+See all queries to insert sample date into tables [here](sql/02_sample_data.sql)
+
+![Insert data into Customers table](screenshots/08_Inserted_customer_data.PNG)
+
+> Insert customers sample data into Customers table
+
+![Insert data into Products table ](screenshots/10_inserted_product_table.PNG)
+
+> Insert products sample data into Products table
+
+![Insert data into Transactions table ](screenshots/11_inserted_Transactions_data_table.PNG)
+
+> Insert transactions sample data into Transactions table
 
 
 
@@ -126,21 +140,35 @@ See all tables created queries [here](sql/01_sql_schema.sql)
 ## 4. Window Function Implementation
 
 * Ranking: ROW_NUMBER(), RANK(), DENSE_RANK(), PERCENT_RANK() Use case: Top N customers by revenue
+
+![Ranking Functions](screenshots/14_RANKING_FUNCTIONS.PNG)
+
 >Interpretation: This query ranks customers by total revenue using multiple functions that handle ties and relative
 >positioning. It helps identify top spenders and segment customers based on their contribution to overall sales.
 > See the result [here](sql/03_result_queries.sql)
 
 * Aggregate: SUM(), AVG(), MIN(), MAX() with frame comparisons (ROWS vs RANGE) Use case: Running totals & trends
+
+![Aggregate Functons](screenshots/15.1_AGGREGATE_FUNCTIONS.PNG)
+
+![Aggregate Functons](screenshots/15.2_AGGREGATE_FUNCTIONS.PNG)
+
 >Interpretation: This query tracks cumulative and rolling metrics over time using different window frames. It helps
 >monitor sales growth, detect anomalies, and smooth fluctuations for trend analysis and forecasting.
 > See the result [here](sql/03_result_queries.sql)
 
 * Navigation: LAG(), LEAD(), growth % calculations Use case: Period-to-period analysis
+
+![Navigation Functions](screenshots/16_NAVIGATION_FUNCTIONS.PNG)
+
 >Interpretation: LAG() and LEAD() access previous and next row values within partitions, enabling period-to-period comparisons.
 >Growth percentage calculations become straightforward by comparing current values with previous ones using LAG().        
 > See the result [here](sql/03_result_queries.sql)
 
 * Distribution: NTILE(4), CUME_DIST() Use case: Customer segmentation
+
+![Ranking Functions](screenshots/17_Customer_segmentation_using_NTILE_and_CUME_DIST.PNG)
+
 > Interpretation: This query segments customers into quartiles and percentiles based on total revenue. It assigns intuitive 
 >labels like Premium, Gold, Silver, and Bronze to support targeted marketing and loyalty strategies.
 > See the result [here](sql/03_result_queries.sql)
@@ -169,13 +197,11 @@ See all tables created queries [here](sql/01_sql_schema.sql)
 * [Oracle Docs](https://docs.oracle.com/en/database/oracle/oracle-database/index.html) : Analytic Functions. Oracle Help Center.
 * [TutorialsPoint](https://www.tutorialspoint.com/apache_tajo/apache_tajo_aggregate_and_window_functions.htm) (2025). *Aggregate & Window Functions*.
 * [GeeksforGeeks](https://www.geeksforgeeks.org/sql/window-functions-in-sql/) (2025). *SQL Window Functions*.
-* [Window Function Concepts and Syntax](https://docs.oracle.com/cd/E17952_01/mysql-8.0-en/window-functions-usage.html)
 * Youtube video: [Lead &amp; Lag Window Functions in SQL (EXAMPLES INCLUDED)](https://www.youtube.com/watch?v=nHEEyX_yDvo)
 * [SQL ServerCentral](https://www.sqlservercentral.com/articles/window-function-basics-partition-by) (2025). *Window function basics PARTITION BY*.
 * [SQLTutorial](https://www.sqltutorial.org/sql-window-functions/) (2025). *SQL Window Functions*.
 * [Mode Analytics](https://mode.com/sql-tutorial/sql-window-functions) (2025). *SQL Window Functions*.
 * [TechOnTheNet](https://www.techonthenet.com/oracle/index.php) (2025). *Oracle/PLSQL Analytical Functions*.
-* [Window Function Descriptions](https://dev.mysql.com/doc/refman/8.4/en/window-function-descriptions.html)
 * Academic paper:
 Prof. Dr,-Ing . Stefan deßloch. (2014). Recent Develepments for Data Models. - [Chapter 6 - Windows and Query Functions in SQL](http://wwwlgis.informatik.uni-kl.de/cms/fileadmin/courses/SS2014/Neuere_Entwicklungen/Chapter_6_-_Windows_and_Query_Functions_in_SQL.pdf)
 
