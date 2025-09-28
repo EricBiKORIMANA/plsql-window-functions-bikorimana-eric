@@ -14,43 +14,40 @@
 
 1. **Database Environment**
 
-* [Oracle Database](https://www.oracle.com/database/) (Version: Oracle XE): Used for to store and retrieve related information.
+- [Oracle Database](https://www.oracle.com/database/) (Version: Oracle XE): Used for to store and retrieve related information.
 
 2. **Database Client Tools**
 
-* **Oracle SQL Developer:** develop and manage SQL databases by planning, developing, and maintaining the databases.
+- **Oracle SQL Developer:** develop and manage SQL databases by planning, developing, and maintaining the databases.
 
 3. **Development Tools**
 
-* **[Visual Studio Code](https://code.visualstudio.com/download)** (for editing `.sql` and `README.md`):
+- [Visual Studio Code](https://code.visualstudio.com/download) (for editing `.sql`):
 
 4. **Version Control**
 
-* [Git](https://git-scm.com/): is a distributed version control system designed to track changes in source code during software development.
-* [Github](https://github.com/): is a cloud-based platform where you can store, share, and work together with others to write code
+- [Git](https://git-scm.com/): is a distributed version control system designed to track changes in source code during software development.
+- [Github](https://github.com/): is a cloud-based platform where you can store, share, and work together with others to write code
 
 5. **Diagram Tools**
 
-* [Draw.io](http://Draw.io) ([diagrams.net](http://diagrams.net)) to create the ER Diagram.
+- [Draw.io](http://Draw.io) ([diagrams.net](http://diagrams.net)) to create the ER Diagram.
 
 
 ## 1. Problem Definition
 
-* **Business Context:**
-  A mid-sized **retail company** operates across several regions in Rwanda. 
-  * Type: E-commerce retail company, operating in Rwanda.
-  * Department: Sales &  Marketing department, analyzing customer purchasing behavior    across regions/districts in Rwanda.
-  * Industry: Online retail (e.g., electronics, fashion, or groceries)
+A. **Business Context:**
+Isokko App is an online retail and distribution company that’s spread out across different parts of Rwanda. We’re particularly interested in their Business Intelligence (BI) department, which helps them make smart decisions by using data. They’re in the consumer goods and retail industry.
     
-* **Data Challenge**
-  The company wants to understand which products perform best in different regions and how customer behavior evolves over time. They need insights to improve marketing and inventory decisions.
+B. **Data Challenge**:
+Isokko App needs to understand which products perform best in different regions and how customer behavior changes over time. They require insights to improve their marketing strategies and inventory management decisions.
   
-* **Expected Outcome**
-  By using  **PL/SQL window functions** , the company will uncover:
-  * Top-selling products per region/district in Rwanda.
-  * track monthly sales trends
-  * Customer segmentation by spending
-  * analyze growth rates
+C. **Expected Outcome**: By using **PL/SQL window functions**, the company will uncover:
+  
+- Top-selling products per region/district in Rwanda.
+- track monthly sales trends
+- Customer segmentation by spending
+- analyze growth rates
 
 ## 2. Success Criteria
 
@@ -138,6 +135,8 @@ See all queries to insert sample date into tables [here](sql/02_sample_data.sql)
 * **PRODUCTS** →  **TRANSACTIONS** : "SOLD IN" relationship (1:M) - One product can be sold in many transactions
 
 ## 4. Window Function Implementation
+
+See all window function implementation queries [here](sql/03_result_queries.sql)
 
 * Ranking: ROW_NUMBER(), RANK(), DENSE_RANK(), PERCENT_RANK() Use case: Top N customers by revenue
 
