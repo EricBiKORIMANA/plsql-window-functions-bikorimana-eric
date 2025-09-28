@@ -175,20 +175,26 @@ See all queries to insert sample date into tables [here](sql/02_sample_data.sql)
 
 ## 5. Results Analysis
 
-### Descriptive
+### Descriptive – What Happened?
 
-* Kigali region shows highest sales volume.
-* Top 5 products account for 60% of revenue.
+- Kigali consistently tops the customer revenue charts, with a few big spenders making up a lot of the pie.
+- Q2 saw steady growth, but Q3 hit a bit of a plateau.
+- Individual customer spending showed some big spikes, especially among our Premium-tier clients.
+- We found a small group of high-value customers who are really contributing to our total revenue.
 
-### Diagnostic
+### Diagnostic – Why Did It Happen?
 
-* Growth spikes in Q2 due to seasonal promotions.
-* Quartile 4 customers are high-value repeat buyers.
+- Kigali is dominance is likely driven by urban density and higher purchasing power.
+- Q2 growth matches seasonal promotions and more frequent transactions from our loyal customers.
+- Our Premium customers are consistently making big purchases, which suggests bulk buying or institutional buying.
+- Our Bronze and Silver segments have fewer transactions and lower average values, which means they’re probably casual or infrequent shoppers.
+  
+### Prescriptive – What next?
 
-### Prescriptive
-
-* Target Quartile 4 with loyalty offers.
-* Increase stock of top products in high-performing regions.
+- We should focus on inventory and marketing in Kigali and among our Premium-tier customers to maximize our ROI.
+- We should replicate the Q2 promotional strategies in Q4 to boost demand and performance at the end of the year.
+- We should launch targeted campaigns for Gold and Silver segments to encourage upselling and repeat purchases.
+- Monitor moving averages and growth metrics monthly to anticipate demand shifts and adjust supply chain planning.
 
 ## 6. References
 
