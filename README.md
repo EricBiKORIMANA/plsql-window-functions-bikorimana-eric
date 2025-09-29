@@ -210,5 +210,12 @@ See all window function implementation queries [here](sql/03_result_queries.sql)
 * Academic paper:
 Prof. Dr,-Ing . Stefan deßloch. (2014). Recent Develepments for Data Models. - [Chapter 6 - Windows and Query Functions in SQL](http://wwwlgis.informatik.uni-kl.de/cms/fileadmin/courses/SS2014/Neuere_Entwicklungen/Chapter_6_-_Windows_and_Query_Functions_in_SQL.pdf)
 
+## Integrity Statement
+
+I declare that this project is my own work. It has been completed with honesty and integrity, without plagiarism or unauthorized collaboration.  
+All sources, references, and external resources used have been properly acknowledged.  
+
+**Author:** BIKORIMANA Eric
+**Date:** 2025-09-29
 
 
