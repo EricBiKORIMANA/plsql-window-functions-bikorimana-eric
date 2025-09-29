@@ -2,13 +2,14 @@
 
 ## Table of Contents
 
-- [Requirement](#13)
-- [Problem Definition](#37)
-- [Success Criteria](#55)
-- [Database Schema Design](#77)
-- [Window Function Implementation](#196)
-- [Results Analysis](#218)
-- [References](#235)
+- [Requirement](#)
+- [Problem Definition](#)
+- [Success Criteria](#)
+- [Database Schema Design](#)
+- [Window Function Implementation](#)
+- [Results Analysis](#)
+- [References](#)
+- [Integrity statement]
 
 ## Requirement
 
